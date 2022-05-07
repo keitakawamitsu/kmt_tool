@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>01f6e650-f57a-4861-915d-9437af0dd09f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>kmt_tool.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="kmt_tool.py" />
+    <Folder Include="kmt\kmt_export\" />
+    <Folder Include="kmt\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="kmt\kmt_export\bookmark.json" />
+    <Content Include="kmt\kmt_export\kmt_style_sheet.qss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="kmt\kmt_export\kmt_export.py" />
+    <Compile Include="kmt\kmt_export\kmt_export_gui.py" />
+    <Compile Include="kmt\kmt_export\kmt_import_json.py" />
+    <Compile Include="kmt\kmt_export\kmt_maya_module.py" />
+    <Compile Include="kmt\kmt_export\__init__.py" />
+    <Compile Include="kmt\kmt_menu.py" />
+    <Compile Include="kmt\__init__.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
