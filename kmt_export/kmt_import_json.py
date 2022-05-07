@@ -24,8 +24,7 @@ class ImportJson:
         JSON_FILE = "bookmark.json"
         USER_NAME = getpass.getuser()
         
-        #BOOKMARK_PATH = ("C:/Users/{}/Documents/maya/scripts/kmt_tool/kmt_export/{}").format(USER_NAME,JSON_FILE) # 業務用パス
-        BOOKMARK_PATH = ("C:/work/05_mayaTool/kmt_tool/kmt_export/{}").format(JSON_FILE) # ローカル用パス
+        BOOKMARK_PATH = ("C:/Users/{}/Documents/maya/scripts/kmt_tool/kmt_export/{}").format(USER_NAME,JSON_FILE) # 業務用パス
 
         if os.path.exists(BOOKMARK_PATH):
             print(u"ブックマークファイルは既にある")
