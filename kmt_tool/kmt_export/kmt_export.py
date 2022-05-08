@@ -33,5 +33,11 @@ class ExportFile:
             return
 
     def file_export(self):
-        cmds.file(self.new_exp_path,es=1,f=1,typ="FBX export")
+        """ 出力用のメソッド
+
+        ここの処理にはプロジェクトのレギュレーションに沿って変更します。
+        今回は便宜上、FBXファイルの出力処理のみを記載しております。
+        
+        """
+        cmds.file(self.new_exp_path, ellipsis =1 , f = 1, typ = "FBX export")
 
