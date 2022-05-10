@@ -3,6 +3,26 @@
 出力先を保存できるすることでパスを探索する時間を削減。
 出力のイテレーションを向上。
 
+## kmt_toolのインストール手順
+### < 手順① >
+ダウンロードファイルを解凍後、[kmt_tool]フォルダを、Pythonのパスが通ってる階層にコピーします。
+
+（例「C:\Users\kawamitsu\Documents\maya\scripts」）
+
+### < 手順② >
+スクリプトエディタのpythonタブで、以下のコマンド実行します。
+
+```python
+from kmt_tool import kmt_menu
+kmt_menu.main_menu()
+```
+
+mayaのメニューに[kmt_tool]が追加されます。
+
+### 出力ツールの起動
+
+kmt_tool > motion > export より該当のツールを起動します。
+
 ## ブックマークの登録と削除
 ![ブックマークの登録と削除](https://user-images.githubusercontent.com/69702777/167282847-75476e83-9b8b-41e5-a73b-096461738d22.gif)
 
