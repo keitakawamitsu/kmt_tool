@@ -1,4 +1,6 @@
 # kmt_export
+![kmt_exportの説明](https://user-images.githubusercontent.com/69702777/167659724-f32f9b32-a091-413f-84f3-786a2b6ee024.png)
+
 アセット出力ツール。<br>
 出力先を保存できるすることでパスを探索する時間を削減。
 出力のイテレーションを向上。
@@ -17,6 +19,7 @@ from kmt_tool import kmt_menu
 kmt_menu.main_menu()
 ```
 
+![Mayaのメニューに登録されてる様子](https://user-images.githubusercontent.com/69702777/167659731-ab4b0c4a-1d0a-42d3-8295-747df97845b0.png)<br>
 mayaのメニューに[kmt_tool]が追加されます。
 
 ### 出力ツールの起動
