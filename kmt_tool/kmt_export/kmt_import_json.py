@@ -40,7 +40,7 @@ class ImportJson:
     def re_json(self):
         """ ブックマークの更新時に使用
         
-        ;return: 登録されたブックマーク
+        :return: 登録されたブックマーク
 
         """
         
